@@ -1,9 +1,9 @@
 //gerenciar html 
 
-( async () => {
+( async ()=> {
 
-        const profileData = await fetchProfileData { }
+        const profileData = await fetchProfileData()
         console.log(profileData)
-    
-    }){}
+})();
+
 
