@@ -1,0 +1,41 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills ul li img {
+    margin-left: 5rem;
+    max-width: 80px;
+    padding: .5rem;
+}
+
+.personal,
+h3,
+ul,
+li {
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+
+
+@media only screen and (min-width:768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 1rem;
+    }
+}

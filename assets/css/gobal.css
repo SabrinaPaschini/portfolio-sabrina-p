@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,400;0,500;1,200&family=Raleway:wght@400;500&family=Roboto+Mono:wght@200;300;400&family=Roboto:wght@400;500&family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Kalnia:wght@300&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,400;0,500;1,200&family=Raleway:wght@400;500&family=Roboto+Mono:wght@200;300;400&family=Roboto:wght@400;500&family=Russo+One&display=swap');
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url(assets/fonts/NeueMachina-Regular.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    color: #fff;
+    background-color: black;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.main {
+    margin: .1rem;
+    padding: .5rem;
+    padding-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+
+
+.main::before {
+    content: '';
+    background-image: url(/assets/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    display: inline-block;
+    width: 140vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.main::after {
+    content: '';
+    background-image: url(/assets/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 200vw;
+    height: 80vh;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+
+@media only screen and (min-width:768px) {
+
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before,
+    .main::after {
+        width: 70vw;
+    }
+
+
+
+}
