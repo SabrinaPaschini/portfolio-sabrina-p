@@ -37,10 +37,19 @@ function updateSoftSkills(profileData){
 }
 
 
+
+function updateLanguage(profileData) {
+    const languageUpdate = document.getElementById('language');
+
+  
+        languageUpdate.innerHTML = profileData.language.map(language => `<li>${language}</li>`).join('');
+    }
+
 (async () => {
     const profileData = await fetchProfileData();
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
+    updatelanguage(profileData)
     
 })();
 
