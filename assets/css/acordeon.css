@@ -48,8 +48,9 @@
     background-repeat: no-repeat;
     background-image: url(/assets/img/icons/seta-top.svg);
     transition: .20s;
+    
 }
-.photo
+
 .acordeon.open .trigger::after {
     transform: rotate(180deg);
 }
