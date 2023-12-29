@@ -8,20 +8,24 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": ""
+        "name": "javascript",
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/javascript.png"
       },
       {
-        "name": "Java",
-        "logo": ""
+        "name": "github",
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/github.png"
       },
       {
         "name": "Angular",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/angular.png"
       },
       {
-        "name": "React",
-        "logo": ""
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/css.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/html.png"
       }
     ],
     "softSkills": [
