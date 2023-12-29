@@ -52,6 +52,14 @@ function updateLanguage (profileData){
     
 }
 
+function updateProjetos(profileData) {
+
+    const projetos = document.getElementById('projetos')
+
+    projetos.innerHTML = profileData.projetos.map( projetos => ` <li>  </li>`).join('')
+
+}
+
 
 (async () => {
     const profileData = await fetchProfileData();
@@ -59,6 +67,7 @@ function updateLanguage (profileData){
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguage (profileData)
+    updateProjetos(profileData)
 
 })();
 

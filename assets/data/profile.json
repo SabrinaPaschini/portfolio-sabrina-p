@@ -50,9 +50,14 @@
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Desafio CSS- Primeira Landing Page",
+      "url": "https://sabrinapaschini.github.io/challenge_css/",
       "github": true
+    },
+    {
+      "name": "certificado primeiros passos",
+      "url": "",
+      "certificado": "https://www.dio.me/certificate/A32B3BD0/share"
     }
   ],
   "professionalExperience": [
