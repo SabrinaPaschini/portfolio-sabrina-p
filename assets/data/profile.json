@@ -26,6 +26,10 @@
       {
         "name": "HTML",
         "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/html.png"
+      },
+      {
+        "name": "typescript",
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/typescript.png"
       }
     ],
     "softSkills": [
