@@ -52,12 +52,12 @@ function updateLanguage (profileData){
     
 }
 
-function updatePortifolio(profileData) {
+function updatePortfolio(profileData) {
 
-    const portifolio = document.getElementById('profile.portfolio')
+    const portfolio = document.getElementById('profile.portfolio')
 
-    portifolio.innerHTML = profileData.portifolio.map( project => {
-
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        
         return ` 
         
         <li>
@@ -74,7 +74,7 @@ function updatePortifolio(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguage (profileData)
-    updatePortifolio(profileData)
+    updatePortfolio(profileData)
 
 })();
 
