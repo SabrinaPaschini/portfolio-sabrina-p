@@ -68,7 +68,7 @@ function updatePortfolio(profileData) {
 
 function updateProfessionalExperience(profileData){
 
-    const professionalExperience = document.getElementById('profile.professionalExperience')
+    const professionalExperience = document.getElementById('professionalExperience')
     
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
 
@@ -76,10 +76,10 @@ function updateProfessionalExperience(profileData){
  
         <li>
 
-        <h3>${experience.name}</h3>
-        <p>${experience.period}</p>
-        <p>${experience.description}</p>
-    </li>
+        <h3 class="title ">${experience.name}</h3>
+        <p class="period">${experience.period}</p>
+        <p class="description">${experience.description}</p>
+         </li>
             `
 
     }).join('')
