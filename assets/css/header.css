@@ -15,7 +15,7 @@
     height: 1rem;
     margin-right: .5rem;
     background-size: cover;
-    background-image: url(/assets/img/icons/Group\ 481411.png);
+    background-image: url(assets/img/icons/Group\ 481411.png);
     background-image: no-repeat;
 }
 
@@ -64,26 +64,26 @@ p::before {
 
 
 .information .person::before {
-    background-image: url(/assets/img/icons/email.svg);
+    background-image: url(assets/img/icons/email.svg);
 
 }
 
 
 .information,
 .whats::before {
-    background-image: url(/assets/img/icons/whats.svg);
+    background-image: url(assets/img/icons/whats.svg);
 
 }
 
 .information,
 .email::before {
-    background-image: url(/assets/img/icons/email.svg);
+    background-image: url(assets/img/icons/email.svg);
 
 }
 
 .information,
 .location::before {
-    background-image: url(/assets/img/icons/location.svg);
+    background-image: url(assets/img/icons/location.svg);
 
 
 }

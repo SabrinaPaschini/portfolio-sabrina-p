@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "javascript",
-        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/javascript.png"
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/mainassets/data/images/javascript.png"
       },
       {
         "name": "github",
-        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/github.png"
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/mainassets/data/images/github.png"
       },
       {
         "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/angular.png"
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/mainassets/data/images/angular.png"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/css.png"
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/mainassets/data/images/css.png"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/html.png"
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/mainassets/data/images/html.png"
       },
       {
         "name": "typescript",
-        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/main/assets/data/images/typescript.png"
+        "logo": "https://raw.githubusercontent.com/SabrinaPaschini/potifolio/mainassets/data/images/typescript.png"
       }
     ],
     "softSkills": [
