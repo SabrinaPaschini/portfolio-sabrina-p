@@ -43,7 +43,7 @@ a:hover {
 .main::before {
     
     content: '';
-    background-image: url(/assets/data/images/background.svg);
+    background-image: url(https://raw.githubusercontent.com/SabrinaPaschini/portfolio-sabrina-p/bb11b06f7bd4213efbb380f227169cea6ffd5dd3/assets/data/images/background.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
@@ -57,7 +57,7 @@ a:hover {
 
 .main::after {
     content: '';
-    background-image: url(/assets/data/images/background.svg);
+    background-image: url(https://raw.githubusercontent.com/SabrinaPaschini/portfolio-sabrina-p/bb11b06f7bd4213efbb380f227169cea6ffd5dd3/assets/data/images/background.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
