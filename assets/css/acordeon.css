@@ -46,7 +46,7 @@
     height: 2rem;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/assets/data/icons/seta-top.svg);
+    background-image: url(https://raw.githubusercontent.com/SabrinaPaschini/portfolio-sabrina-p/8e290e54c542e81bc81a2b53f905d124facaa856/assets/data/icons/seta-top.svg);
     transition: .20s;
     
 }
