@@ -4,12 +4,13 @@
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url(/assets/fonts/NeueMachina-Regular.otf);
+    src: url(assets/fonts/NeueMachina-Regular.otf);
 }
 
 * {
     box-sizing: border-box;
     font-family: 'Gabarito', sans-serif;
+    color: #fff ;
 }
 
 body {
