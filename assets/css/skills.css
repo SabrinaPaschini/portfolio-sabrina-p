@@ -1,10 +1,12 @@
 .skills {
     display: flex;
     flex-direction: column;
-
+    
+    
 }
 
 .skills .tools ul {
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,21 +15,25 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
+    
 }
 
 .skills ul li img {
     margin-left: 5rem;
     max-width: 80px;
     padding: .5rem;
+    
 }
 
 .personal,
-h3,
-ul,
+h3
+ul
 li {
-    align-items: center;
-    text-align: center;
     list-style: none;
+    align-items: center;
+    text-align: start;
+    
 }
 
 
