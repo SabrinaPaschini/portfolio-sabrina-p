@@ -5,52 +5,36 @@ function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
     photo.alt = profileData.name
-
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
-
     const job = document.getElementById('profile.job')
     job.innerText = profileData.job
-
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
-
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`;
-
-
 }
 
 function updateSoftSkills(profileData) {
 
     const softSkills = document.getElementById('profile.softSkills')
-
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
-
-
-
 }
 
 function updateHardSkills(profileData) {
-
     const hardSkills = document.getElementById('profile.skills.hardSkills')
-
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => ` <li> <img src="${skill.logo}" alt="${skill.name}"> </li>`).join('')
-
 }
 
 function updateLanguage(profileData) {
     const languages = document.getElementById('language')
-
     languages.innerHTML = profileData.languages.map(languages => `<li>${languages}</li>`).join('')
-
 }
 
 function updatePortfolio(profileData) {
 
     const portfolio = document.getElementById('profile.portfolio')
-
     portfolio.innerHTML = profileData.portfolio.map(project => {
         return ` 
         <li>
@@ -60,28 +44,18 @@ function updatePortfolio(profileData) {
         `
     }).join('')
 }
-
 function updateProfessionalExperience(profileData){
 
-    const professionalExperience = document.getElementById('professionalExperience')
-    
+    const professionalExperience = document.getElementById('professionalExperience')  
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
-
         return `
- 
         <li>
-
         <h3 class="title ">${experience.name}</h3>
         <p class="period">${experience.period}</p>
         <p class="description">${experience.description}</p>
          </li>
             `
-
     }).join('')
-
-
-
-
 }
 
 (async () => {
@@ -92,7 +66,6 @@ function updateProfessionalExperience(profileData){
     updateLanguage(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
-
 })();
 
 
