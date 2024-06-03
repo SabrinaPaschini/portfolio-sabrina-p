@@ -3,7 +3,6 @@
   "photo": "https://avatars.githubusercontent.com/u/134746109?s=96&v=4",
   "job": "Estudante de análise e desenvolvimento de sistemas -FMU",
   "location": "São Bernardo do Campo - SP",
-  "phone": "(11) 99999-6666",
   "email": "sabrina.paschini@hotmail.com",
   "skills": {
     "hardSkills": [
@@ -65,6 +64,12 @@
       "name": "Front-end Developer jr.",
       "period": "2023 - até o momento",
       "description": "Estudante na área de tecnologia desde abril 2023."
+    },
+     {
+      "name": "Vendedora Pleno - Arezzo.",
+      "period": "2022 - até o momento",
+      "description": "Atendimento ao cliente realizando vendas e pós vendas"
     }
+    
   ]
 }
