@@ -26,10 +26,8 @@ Este projeto de portfólio é um exemplo de como utilizar tecnologias web modern
 
 Agradeço por visitar meu portfólio e espero que goste do que verá!
 
-Como Executar o Projeto: 
-
-**Clone o repositório para o seu ambiente local.
-**Abra o arquivo index.html em um navegador web.
+## Como Executar o Projeto: 
+Clone o repositório para o seu ambiente local, abra o arquivo index.html em um navegador web.
 
 ## Estrutura de Pastas e Arquivos
 
