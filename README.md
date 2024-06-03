@@ -22,6 +22,15 @@ Bem-vindo ao meu projeto de portfólio! Este projeto foi criado para exibir minh
 3. **Carregamento de Dados:** Um arquivo JSON é utilizado para armazenar as informações sobre meus projetos, habilidades e experiências.
 4. **Manipulação DOM:** O JavaScript é responsável por fazer uma requisição ao arquivo JSON, obter os dados e inseri-los dinamicamente na página HTML.
 
+Este projeto de portfólio é um exemplo de como utilizar tecnologias web modernas para criar uma página dinâmica e responsiva. A integração de JSON permite uma fácil atualização e manutenção das informações exibidas, enquanto HTML, CSS e JavaScript proporcionam uma base sólida para o desenvolvimento front-end.
+
+Agradeço por visitar meu portfólio e espero que goste do que verá!
+
+Como Executar o Projeto: 
+
+**Clone o repositório para o seu ambiente local.
+**Abra o arquivo index.html em um navegador web.
+
 ## Estrutura de Pastas e Arquivos
 
 ```plaintext
@@ -34,8 +43,4 @@ meu-portfolio/
 │   └── main.js
 └── data/.
     └── info.json
-
-Este projeto de portfólio é um exemplo de como utilizar tecnologias web modernas para criar uma página dinâmica e responsiva. A integração de JSON permite uma fácil atualização e manutenção das informações exibidas, enquanto HTML, CSS e JavaScript proporcionam uma base sólida para o desenvolvimento front-end.
-
-Agradeço por visitar meu portfólio e espero que goste do que verá!
 
