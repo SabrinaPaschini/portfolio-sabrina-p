@@ -35,4 +35,51 @@
       "Resolução de Problemas",
       "Autodidata",
       "Trabalho em equipe",
-      "Comunicação assert
+      "Comunicação assertiva"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "IMC - Calculadora de Indice de Massa Corporal",
+      "url": "https://sabrinapaschini.github.io/imc-project/",
+      "github": true
+    },
+    {
+      "name": "Pokedex -  consumo de API",
+      "url": "https://sabrinapaschini.github.io/pokedex-challenge/",
+      "github": true
+    },
+    {
+      "name": "DubSirena - Eletronic Hand Made Job - (Angular Framework)",
+      "url": "https://sabrinapaschini.github.io/dubSirenaFront/",
+      "github": true
+    },
+    {
+      "name": "To Do List - (Angular Framework)",
+      "url": "https://sabrinapaschini.github.io/To_Do_List/",
+      "github": true
+    },
+    {
+      "name": "SellController (Angular Framework)",
+      "description": "Aplicação que ajuda vendedores a acompanharem seus resultados, projeto em andamento",
+      "url": "https://github.com/SabrinaPaschini/SellPersonalControl.git",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Front-end Developer jr.",
+      "period": "2023 - até o momento",
+      "description": "Estudante na área de tecnologia desde abril 2023."
+    },
+    {
+      "name": "Vendedora - Vivara.",
+      "period": "2024 - até o momento",
+      "description": "Atendimento ao cliente realizando vendas e pós vendas"
+    }
+  ]
+}
