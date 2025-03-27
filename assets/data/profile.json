@@ -32,10 +32,10 @@
       }
     ],
     "softSkills": [
-      "Empatia",
       "Resolução de Problemas",
       "Autodidata",
-      "Trabalho em equipe"
+      "Trabalho em equipe",
+      "Comunicação assertiva"
     ]
   },
   "languages": [
@@ -62,7 +62,13 @@
       "name": "To Do List - (Angular Framework)",
       "url": "https://sabrinapaschini.github.io/To_Do_List/",
       "github": true
-    }
+    },
+      {
+      "name": " SellController (Angular Framework)",
+      "description": "Aplicação que ajuda vendedores a acompanharem seus resultados, projeto em andamento", 
+      "url": "https://github.com/SabrinaPaschini/SellPersonalControl.git",
+      "github": true
+    },
   ],
   "professionalExperience": [
     {
